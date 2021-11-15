@@ -1,7 +1,7 @@
 {
-  "name": "@companynamespace/npm-package-template",
-  "version": "1.0.0",
-  "description": "<Package description>",
+  "name": "@netcentric/stylelint-config",
+  "description": "Netcentric's coding and style rules for stylelint",
+  "version": "4.0.0",
   "license": "Apache-2.0",
   "private": false,
   "publishConfig": {
@@ -9,13 +9,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/companynamespace/npm-package-template"
+    "url": "https://github.com/Netcentric/stylelint-config"
   },
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "lint": "stylelint test/*.css"
+  },
+  "peerDependencies": {
+    "stylelint": "~14.0.1"
+  },
+  "stylelint": {
+    "extends": "./index.js"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Android >= 5"
+  ],
+  "devDependencies": {
+    "stylelint": "^14.0.1"
   },
   "keywords": [
-    "keyword"
+    "stylelint",
+    "stylelint-config",
+    "netcentric"
   ]
 }

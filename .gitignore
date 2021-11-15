@@ -18,6 +18,7 @@ logs
 *.swp
 
 # Node related files
+package-lock.json
 node_modules/
 node/
 bin/
