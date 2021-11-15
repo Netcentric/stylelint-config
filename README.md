@@ -16,11 +16,11 @@ Create a `.stylelintrc` file in the folder of your project's `package.json`:
 
 ```json
 {
-  "extends": "@nc/stylelint-config"
+  "extends": "@netcentric/stylelint-config"
 }
 ```
 
-Please do not add it as a property `stylelint` within the `package.json` as it is not supported by all essential IDEs in Netcentric (e.g. Webstorm wouldn't pick it).
+Please do not add it as a property `stylelint` within the `package.json` as it is not supported by all essential IDEs (e.g. Webstorm wouldn't pick it).
 
 Note that stylelint is different to eslint as it uses [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) to load the configuration file. Biggest difference: the first config file it finds is used, and it will stop looking for further files in upper folders. That means, you only can define one `.stylelintrc`  file, preferably on the same folder as your project's `package.json`.
 
@@ -34,8 +34,8 @@ In your `package.json`
 
 ```json
   "dependencies": {
-    "@nc/stylelint-config": "^4.0.0",
-    "stylelint": "~14.0.1"
+    "@netcentric/stylelint-config": "^4.0.0",
+    "stylelint": "~14.1.0"
     ...
   ",
   "scripts": {

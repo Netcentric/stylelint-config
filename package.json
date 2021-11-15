@@ -16,7 +16,7 @@
     "lint": "stylelint test/*.css"
   },
   "peerDependencies": {
-    "stylelint": "~14.0.1"
+    "stylelint": "~14.1.0"
   },
   "stylelint": {
     "extends": "./index.js"
