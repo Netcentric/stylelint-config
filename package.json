@@ -1,6 +1,6 @@
 {
   "name": "@netcentric/stylelint-config",
-  "description": "Netcentric's coding and style rules for stylelint",
+  "description": "Netcentric's coding and style rules for Stylelint",
   "version": "4.0.0",
   "license": "Apache-2.0",
   "private": false,

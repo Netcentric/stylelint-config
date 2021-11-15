@@ -22,11 +22,11 @@ Create a `.stylelintrc` file in the folder of your project's `package.json`:
 
 Please do not add it as a property `stylelint` within the `package.json` as it is not supported by all essential IDEs (e.g. Webstorm wouldn't pick it).
 
-Note that stylelint is different to eslint as it uses [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) to load the configuration file. Biggest difference: the first config file it finds is used, and it will stop looking for further files in upper folders. That means, you only can define one `.stylelintrc`  file, preferably on the same folder as your project's `package.json`.
+Note that Stylelint is different to eslint as it uses [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) to load the configuration file. Biggest difference: the first config file it finds is used, and it will stop looking for further files in upper folders. That means, you only can define one `.stylelintrc`  file, preferably on the same folder as your project's `package.json`.
 
 ## IDE integration
 
-Most IDEs should have an [integration for stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/complementary-tools.md#editor-plugins).
+Most IDEs should have an [integration for Stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/complementary-tools.md#editor-plugins).
 
 ## Build system integration
 
