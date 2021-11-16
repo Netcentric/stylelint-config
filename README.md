@@ -36,8 +36,7 @@ In your `package.json`
   "dependencies": {
     "@netcentric/stylelint-config": "^4.0.0",
     "stylelint": "~14.1.0"
-    ...
-  ",
+  },
   "scripts": {
     "lint": "stylelint "\"<root-css-files>/**/*.css\""
   }
