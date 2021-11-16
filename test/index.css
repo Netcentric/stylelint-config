@@ -1,0 +1,23 @@
+/* selector-max-specificity: 3 */
+.a .b .c {
+  color: test;
+}
+
+/* max-nesting-depth: 3 */
+.parent {
+  &__nested1 {
+    &__nested2 {
+      &__nested3 {
+        background: red;
+      }
+    }
+  }
+}
+
+/*
+ * plugin/no-unsupported-browser-features
+ * should only emit a warning
+ */
+.unsuported {
+  display: flex;
+}
