@@ -1,12 +1,12 @@
 # @netcentric/stylelint-config
 
-If StyleLint is new to you, you might want ot check out  [what it does](http://stylelint.io/) and [how to configure it](http://stylelint.io/user-guide/configuration/).
-
 [![Version](https://img.shields.io/npm/v/@netcentric/stylelint-config.svg)](https://npmjs.org/package/@netcentric/stylelint-config)
 [![Build Status](https://github.com/netcentric/stylelint-config/workflows/CI/badge.svg?branch=main)](https://github.com/netcentric/stylelint-config/actions)
 [![CodeQL Analysis](https://github.com/netcentric/stylelint-config/workflows/CodeQL/badge.svg?branch=main)](https://github.com/netcentric/stylelint-config/actions)
 [![semver: semantic-release](https://img.shields.io/badge/semver-semantic--release-blue.svg)](https://github.com/semantic-release/semantic-release)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+If StyleLint is new to you, you might want ot check out  [what it does](http://stylelint.io/) and [how to configure it](http://stylelint.io/user-guide/configuration/).
 
 ## Setup
 
