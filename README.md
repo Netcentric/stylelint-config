@@ -6,7 +6,7 @@
 [![semver: semantic-release](https://img.shields.io/badge/semver-semantic--release-blue.svg)](https://github.com/semantic-release/semantic-release)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-If StyleLint is new to you, you might want ot check out  [what it does](http://stylelint.io/) and [how to configure it](http://stylelint.io/user-guide/configuration/).
+If StyleLint is new to you, you might want ot check out  [what it does](https://stylelint.io/) and [how to configure it](https://stylelint.io/user-guide/configure/).
 
 ## Setup
 
