@@ -8,11 +8,17 @@
 
 If StyleLint is new to you, you might want ot check out  [what it does](https://stylelint.io/) and [how to configure it](https://stylelint.io/user-guide/configure/).
 
+## Install
+
+```bash
+npm install --save @netcentric/stylelint-config stylelint
+```
+
 ## Setup
 
 ### .stylelintrc
 
-Create a `.stylelintrc` file in the folder of your project's `package.json`:
+Create or update your `.stylelintrc` file in the folder of your project's `package.json`:
 
 ```json
 {
@@ -33,10 +39,6 @@ Most IDEs should have an [integration for Stylelint](https://github.com/stylelin
 In your `package.json`
 
 ```json
-  "dependencies": {
-    "@netcentric/stylelint-config": "^4.0.0",
-    "stylelint": "~14.1.0"
-  },
   "scripts": {
     "lint": "stylelint "\"<root-css-files>/**/*.css\""
   }
