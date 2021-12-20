@@ -8,7 +8,9 @@
   &__nested1 {
     &__nested2 {
       &__nested3 {
-        background: red;
+        &__nested4 {
+          background: red;
+        }
       }
     }
   }
