@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Netcentric/stylelint-config/compare/v1.1.0...v1.2.0) (2022-03-03)
+
+
+### Features
+
+* update dependencies ([f618080](https://github.com/Netcentric/stylelint-config/commit/f618080b946dfc188695bef3b733432ce8a4e837))
+
 # [1.1.0](https://github.com/Netcentric/stylelint-config/compare/v1.0.1...v1.1.0) (2022-03-03)
 
 
