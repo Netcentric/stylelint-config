@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Netcentric/stylelint-config/compare/v1.0.1...v1.1.0) (2022-03-03)
+
+
+### Features
+
+* use config standard for SCSS as default ([#5](https://github.com/Netcentric/stylelint-config/issues/5)) ([7aaee02](https://github.com/Netcentric/stylelint-config/commit/7aaee022279527ef01d987ab1431e0eed3feb914))
+
 ## [1.0.1](https://github.com/Netcentric/stylelint-config/compare/v1.0.0...v1.0.1) (2021-11-18)
 
 
