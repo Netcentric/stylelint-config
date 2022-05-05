@@ -16,7 +16,7 @@
     "lint": "stylelint test/*.scss"
   },
   "peerDependencies": {
-    "stylelint": "~14.5.3"
+    "stylelint": "14.x"
   },
   "stylelint": {
     "extends": "./index.js"
