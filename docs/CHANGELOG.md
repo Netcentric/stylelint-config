@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Netcentric/stylelint-config/compare/v1.2.0...v1.2.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* changes version of peer dependency stylelint so plugin can be installed with any stylelint v14 ([caa0425](https://github.com/Netcentric/stylelint-config/commit/caa0425eaa51c81088f2003b3281a5bee1addaac))
+
 # [1.2.0](https://github.com/Netcentric/stylelint-config/compare/v1.1.0...v1.2.0) (2022-03-03)
 
 
