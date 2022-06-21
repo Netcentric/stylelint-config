@@ -23,3 +23,13 @@
 .unsuported {
   display: flex;
 }
+
+/* bem ok */
+.block__element {
+  color: red;
+}
+
+/* bem error */
+.block_element {
+  color: red;
+}

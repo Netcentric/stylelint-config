@@ -46,6 +46,15 @@ module.exports = {
     "declaration-no-important": true,
     "declaration-property-unit-allowed-list": {
       "font-size": ["px", "em"]
-    }
+    },
+
+    // bem
+    // https://github.com/postcss/postcss-bem-linter/issues/82#issuecomment-193851353
+    "selector-class-pattern": [
+      "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
+      {
+        "message": "Expected class selector to match BEM naming convention"
+      }
+    ]
   }
 };
