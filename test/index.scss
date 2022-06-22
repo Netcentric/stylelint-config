@@ -5,10 +5,10 @@
 
 /* max-nesting-depth: 3 */
 .parent {
-  &__nested1 {
-    &__nested2 {
-      &__nested3 {
-        &__nested4 {
+  &Nested1 {
+    &Nested2 {
+      &Nested3 {
+        &Nested4 {
           background: red;
         }
       }
@@ -25,11 +25,60 @@
 }
 
 /* bem ok */
-.block__element {
-  color: red;
+.block {
+  color: test;
+
+  &-header {
+    color: test;
+  }
+
+  &__element {
+    color: test;
+
+    &Suffix {
+      color: test;
+    }
+
+    &-suffix {
+      color: test;
+    }
+
+    &--modifier {
+      color: test;
+
+      &--modifier2 {
+        color: test;
+      }
+    }
+  }
 }
 
 /* bem error */
-.block_element {
-  color: red;
+.block__element2 {
+  color: test;
+
+  // not '_' allowed
+  &_suffix {
+    color: test;
+  }
+
+  // 2 nested elements
+  &__subElement {
+    color: test;
+  }
+
+  &--modifier {
+    color: test;
+
+    &--modifier2 {
+      color: test;
+
+      // 3 modifiers
+      &--modifier3 {
+        color: test;
+      }
+    }
+  }
 }
+
+/** end */
