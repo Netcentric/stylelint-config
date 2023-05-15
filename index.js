@@ -39,7 +39,6 @@ module.exports = {
 
     // quotes
     "font-family-name-quotes": "always-unless-keyword",
-    "string-quotes": "single",
     "function-url-quotes": "always",
 
     // declarations
