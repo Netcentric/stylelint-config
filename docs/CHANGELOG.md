@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Netcentric/stylelint-config/compare/v1.2.1...v2.0.0) (2023-05-15)
+
+
+### Build System
+
+* updates manual release ([#15](https://github.com/Netcentric/stylelint-config/issues/15)) ([cddfdf3](https://github.com/Netcentric/stylelint-config/commit/cddfdf3e0be569c75e1c49db6d29f9a37789f733))
+
+
+### BREAKING CHANGES
+
+* update Stylelint to 15.x
+
 ## [1.2.1](https://github.com/Netcentric/stylelint-config/compare/v1.2.0...v1.2.1) (2022-05-05)
 
 
