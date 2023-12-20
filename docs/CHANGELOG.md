@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/Netcentric/stylelint-config/compare/v2.0.0...v2.0.1) (2023-12-20)
+
+
+### Bug Fixes
+
+* add package lock ([83f849a](https://github.com/Netcentric/stylelint-config/commit/83f849af5a3c8524dfe84740ee0cb489201fc0d1))
+* remove shrinkwrap ([67b4120](https://github.com/Netcentric/stylelint-config/commit/67b4120c92e17403d9ba22e577107e94996ce93f))
+
 # [2.0.0](https://github.com/Netcentric/stylelint-config/compare/v1.2.1...v2.0.0) (2023-05-15)
 
 
