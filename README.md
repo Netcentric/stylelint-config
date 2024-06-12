@@ -71,21 +71,11 @@ When working with this plugin we've found some browser issues that might help yo
   severity: `error`,
   browsers,
   ignore: [
-    // only issue for IE (according to http://caniuse.com/#feat=font-unicode-range)
-    // seems to that it "ignores the unicode-range if the U is lowercase e.g 'u+0061'"
-    `font-unicode-range`,
-    // autoprefixer does the job
-    `flexbox`,
     // "css-hyphens" is only partially supported by Chrome and Android Browser 56
     // autoprefixer does the job
     `css-hyphens`,
-    // http://caniuse.com/#feat=viewport-units
-    // only the `vmax` rule is not supported in IE11, Edge
-    `viewport-units`,
-    // we expect full CSS grid support on target browsers once the project launches
+    // we expect full CSS grid support on target browsers nowadays
     `multicolumn`,
-    // IE11, Edge14 partially support this http://caniuse.com/#feat=outline
-    `outline`
   ]
 }],
 ```
