@@ -22,6 +22,8 @@
     "extends": "./index.js"
   },
   "dependencies": {
+    "@stylistic/stylelint-config": "1.x",
+    "@stylistic/stylelint-plugin": "2.x",
     "stylelint-config-standard-scss": "13.x",
     "stylelint-no-unsupported-browser-features": "8.x"
   },

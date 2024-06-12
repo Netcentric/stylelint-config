@@ -1,6 +1,10 @@
 module.exports = {
-  "extends": "stylelint-config-standard-scss",
+  "extends": [
+    "stylelint-config-standard-scss",
+    "@stylistic/stylelint-config"
+  ],
   "plugins": [
+    "@stylistic/stylelint-plugin",
     "stylelint-no-unsupported-browser-features"
   ],
   // additonal rules based mainly on
@@ -14,8 +18,8 @@ module.exports = {
     "plugin/no-unsupported-browser-features": [true, { "severity": "warning" }],
 
     // general
-    "indentation": null,
-    "no-missing-end-of-source-newline": null,
+    "@stylistic/indentation": null,
+    "@stylistic/no-missing-end-of-source-newline": null,
 
     // vendor prefixes
     // we expect all projects to use autoprefixer
