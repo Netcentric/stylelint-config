@@ -1,7 +1,7 @@
 {
   "name": "@netcentric/stylelint-config",
   "description": "Netcentric's coding and style rules for Stylelint",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "license": "Apache-2.0",
   "private": false,
   "publishConfig": {
@@ -16,14 +16,14 @@
     "lint": "stylelint test/*.scss"
   },
   "peerDependencies": {
-    "stylelint": "15.x"
+    "stylelint": "16.x"
   },
   "stylelint": {
     "extends": "./index.js"
   },
   "dependencies": {
-    "stylelint-config-standard-scss": "^9.0.0",
-    "stylelint-no-unsupported-browser-features": "^6.1.0"
+    "stylelint-config-standard-scss": "13.x",
+    "stylelint-no-unsupported-browser-features": "8.x"
   },
   "browserslist": [
     "last 2 versions",
@@ -32,7 +32,7 @@
     "Android >= 5"
   ],
   "devDependencies": {
-    "stylelint": "^15.6.1"
+    "stylelint": "^16.6.1"
   },
   "keywords": [
     "stylelint",
