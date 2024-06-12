@@ -11,7 +11,7 @@ If StyleLint is new to you, you might want to check out  [what it does](https://
 ## Install
 
 ```bash
-npm install --save @netcentric/stylelint-config stylelint
+npm install --save-dev @netcentric/stylelint-config stylelint
 ```
 
 ## Setup
@@ -68,7 +68,7 @@ When working with this plugin we've found some browser issues that might help yo
 
 ```javascript
 "plugin/no-unsupported-browser-features": [true, {
-  severity: `error`,
+  severity: `warning`,
   browsers,
   ignore: [
     // "css-hyphens" is only partially supported by Chrome and Android Browser 56
@@ -76,6 +76,15 @@ When working with this plugin we've found some browser issues that might help yo
     `css-hyphens`,
     // we expect full CSS grid support on target browsers nowadays
     `multicolumn`,
+    // most of the values are well supported, just clip is partially suppported by Safari
+    'css-overflow',
+    // most of the values are well supported, just old versions of Firefox and Safari have a few issues with transparent colors
+    'css-gradients',
+    // following rules need to be disabled if using SCSS, since the CSS nesting is going to be converted to compatible CSS by the build tools
+    'css-nesting',
+    'css-when-else',
+    // it might give false positives when using together with SCSS functions, such as column-gap: scss-function();
+    'column-gap',
   ]
 }],
 ```
