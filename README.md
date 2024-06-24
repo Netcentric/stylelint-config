@@ -88,3 +88,7 @@ When working with this plugin we've found some browser issues that might help yo
   ]
 }],
 ```
+
+### @stylistic/stylelint-plugin
+
+[@stylistic/stylelint-plugin](https://www.npmjs.com/package/@stylistic/stylelint-plugin)
