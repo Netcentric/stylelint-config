@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/Netcentric/stylelint-config/compare/v2.1.0...v3.0.0) (2024-06-24)
+
+
+### Documentation
+
+* Update plugins list in Readme ([e8eaccf](https://github.com/Netcentric/stylelint-config/commit/e8eaccf47bbb67fbed49bf2c8574ee24e2956afc))
+
+
+### BREAKING CHANGES
+
+* update stylelint to v16 and other dependencies to latest versions
+
 # [2.1.0](https://github.com/Netcentric/stylelint-config/compare/v2.0.1...v2.1.0) (2024-06-24)
 
 
