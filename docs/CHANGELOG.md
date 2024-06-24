@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Netcentric/stylelint-config/compare/v2.0.1...v2.1.0) (2024-06-24)
+
+
+### Features
+
+* add stylistic plugin and config in order to keep support for the rules that were deprecated from stylelint v15 ([35f4244](https://github.com/Netcentric/stylelint-config/commit/35f4244a378982c89c2017f7b01764eb43f3291a))
+
 ## [2.0.1](https://github.com/Netcentric/stylelint-config/compare/v2.0.0...v2.0.1) (2023-12-20)
 
 
