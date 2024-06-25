@@ -36,6 +36,13 @@ consensus around project direction and issue solutions within issue threads
 │
 └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 ```
+#### Major Version Release:
+
+In order to trigger Major Version upgrade, BREAKING CHANGE: needs to be in the footer of a commit message:
+
+<type>(<scope>): <short summary>
+<BLANK LINE>
+BREAKING CHANGE: <breaking change summary>
 
 ## Code Reviews
 
