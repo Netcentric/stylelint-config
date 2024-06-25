@@ -39,11 +39,11 @@ consensus around project direction and issue solutions within issue threads
 #### Major Version Release:
 
 In order to trigger Major Version upgrade, BREAKING CHANGE: needs to be in the footer of a commit message:
-
+```
 <type>(<scope>): <short summary>
 <BLANK LINE>
 BREAKING CHANGE: <breaking change summary>
-
+```
 ## Code Reviews
 
 All submissions should come in the form of pull requests and need to be reviewed
