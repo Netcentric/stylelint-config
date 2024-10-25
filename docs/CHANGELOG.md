@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/Netcentric/stylelint-config/compare/v3.0.0...v4.0.0) (2024-10-25)
+
+
+### Build System
+
+* update dependencies to latest versions ([b7c1432](https://github.com/Netcentric/stylelint-config/commit/b7c1432c5a0ce1fb21e3fffaf5c77712cbcd9665))
+
+
+### BREAKING CHANGES
+
+* config now requires stylelint version 16.8.0 or higher
+
 # [3.0.0](https://github.com/Netcentric/stylelint-config/compare/v2.1.0...v3.0.0) (2024-06-24)
 
 
