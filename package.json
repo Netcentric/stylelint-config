@@ -16,15 +16,15 @@
     "lint": "stylelint test/*.scss"
   },
   "peerDependencies": {
-    "stylelint": "^16.8.0"
+    "stylelint": "^16.26.0"
   },
   "stylelint": {
     "extends": "./index.js"
   },
   "dependencies": {
-    "@stylistic/stylelint-config": "2.x",
-    "@stylistic/stylelint-plugin": "3.x",
-    "stylelint-config-standard-scss": "13.x",
+    "@stylistic/stylelint-config": "3.x",
+    "@stylistic/stylelint-plugin": "4.x",
+    "stylelint-config-standard-scss": "16.x",
     "stylelint-no-unsupported-browser-features": "8.x"
   },
   "browserslist": [
@@ -34,7 +34,7 @@
     "Android >= 5"
   ],
   "devDependencies": {
-    "stylelint": "^16.6.1"
+    "stylelint": "^16.26.0"
   },
   "keywords": [
     "stylelint",
