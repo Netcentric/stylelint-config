@@ -1,3 +1,13 @@
+# [5.0.0](https://github.com/Netcentric/stylelint-config/compare/v4.0.0...v5.0.0) (2025-11-27)
+
+
+* BREAKING CHANGE: Trigger Manual Release ([eeb1643](https://github.com/Netcentric/stylelint-config/commit/eeb164351b1e0769499e6fd747c5b1684c17ff39))
+
+
+### BREAKING CHANGES
+
+* Forced Manual Release without code changes
+
 # [4.0.0](https://github.com/Netcentric/stylelint-config/compare/v3.0.0...v4.0.0) (2024-10-25)
 
 
