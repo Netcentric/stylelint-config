@@ -12,6 +12,7 @@
     "url": "https://github.com/Netcentric/stylelint-config"
   },
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "stylelint test/*.scss"
   },
