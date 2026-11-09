@@ -23,3 +23,61 @@
 .unsuported {
   display: flex;
 }
+
+/* specificity: nesting selector inherits the highest parent specificity */
+#nested-id,
+.nested-class {
+  & .child {
+    color: red;
+  }
+}
+
+/* selector-max-id */
+#header {
+  color: red;
+}
+
+/* selector-max-class */
+.a.b.c.d {
+  color: red;
+}
+
+/* selector-max-compound-selectors: 4, with functional pseudo-classes */
+.a:has(.b .c) .d .e .f {
+  color: red;
+}
+
+.a:is(.b, .c) .d .e {
+  color: red;
+}
+
+/* no-duplicate-selectors */
+.duplicate {
+  color: red;
+}
+
+.duplicate {
+  color: blue;
+}
+
+/* *-no-vendor-prefix */
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .prefixed {
+    display: -webkit-flex;
+  }
+}
+
+::-moz-selection {
+  color: red;
+}
+
+/* declaration-property-unit-allowed-list */
+.font-size {
+  font-size: 1rem;
+}
