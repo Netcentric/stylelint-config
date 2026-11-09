@@ -10,6 +10,8 @@ If StyleLint is new to you, you might want to check out  [what it does](https://
 
 ## Install
 
+Requires Stylelint 17.16.0 or higher and Node.js 20.19.0 or higher.
+
 ```bash
 npm install --save-dev @netcentric/stylelint-config stylelint
 ```
