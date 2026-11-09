@@ -30,7 +30,9 @@ module.exports = {
     "value-no-vendor-prefix": true,
 
     // selector specificity and nesting
-    "selector-max-specificity": "0,3,0",
+    // selector-max-specificity is incompatible with SCSS nesting since stylelint v17
+    "selector-max-id": 0,
+    "selector-max-class": 3,
     "selector-max-compound-selectors": 4,
     "max-nesting-depth": [
       3, {
